@@ -14,15 +14,15 @@ Non-stationary surface electromyography (sEMG) decomposition using Blind Source 
 
 MyoDec's ARM algorithm attempts to provide a BSS-based solution for non-stationary variable-force sEMG data decomposition using amplitude features. MyoDec aims to model MU behavior through a set of normalized, unique, highly-regular amplitude features (inherently present in sEMG data), enabling MU activity identification during variable force contractions (as shown in Fig. 1). We hope you find this approach interesting and user-friendly.
 
-![Fig. 1](decomp_results.png)
-*Variable force sEMG data decomposition results using MyoDec ARM*
+<img src="decomp_results.png" width="48">
+*Figure 1. Variable force sEMG data decomposition results using MyoDec ARM*
 
 # Requirememts
 See ```requirements.txt```
 
 Decomposition was tested on Ubuntu 22.04 LTS with Python 3.12:
 
-```Python
+```
 numpy==1.26.4
 scipy==1.15.1
 pandas==2.2.3
