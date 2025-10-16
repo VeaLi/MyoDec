@@ -1,4 +1,5 @@
 # MyoDec v0.1.
+## MyoDec: Decomposition of Non-stationary Surface Electromyography Signals Using Motor Unit Amplitude Range Model
 
 This repository contains source code for MyoDec sEMG decomposition software v0.1.
 
